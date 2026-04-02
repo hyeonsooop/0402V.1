@@ -1,0 +1,6 @@
+This patch preserves the paper scenario, parameters, and environment.
+It only fixes implementation-side details:
+1) UL combiner normalization/scaling consistency with RIS gain.
+2) Detailed SINR breakdown logging for direct diagnosis.
+3) Debug entry-point prints desired/interference and desired/noise ratios.
+No paper-side assumptions were changed.
